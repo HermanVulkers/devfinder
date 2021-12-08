@@ -51,7 +51,7 @@ h3 {
 	font-family: "Space Mono", monospace;
 	font-size: 16px;
 	font-weight: normal;
-	color: blue;
+	color: rgb(73, 73, 255);
 }
 
 h4 {
@@ -84,10 +84,16 @@ body {
 
 .themeswitcher {
 	display: flex;
+	align-items: center;
 }
 
 .themeswitcher span {
 	margin-right: 10px;
+}
+
+.themeswitcher-btn {
+	background: none;
+	color: black;
 }
 
 .container {
@@ -156,6 +162,11 @@ button {
 	width: 100px;
 }
 
+.btn {
+	border-radius: 10px;
+
+}
+
 .search-field {
 	flex: 1;
 	padding: 15px 0;
@@ -170,6 +181,11 @@ button {
 .search-button {
 	margin-left: 15px;
 	margin-right: 10px;
+}
+
+#no-result {
+	color:red;
+	font-size: small;
 }
 
 .main-container {
@@ -258,6 +274,15 @@ button {
 margin-top: 20px;
 }
 
+@media (min-width: 768px) {
+	.contact {
+	grid-template-areas: 
+	"loc twi"
+	"web git";
+	}
+}
+
+
 .location {
 	grid-area: loc;
 	display: flex;
@@ -290,6 +315,54 @@ margin-top: 20px;
 	margin-right: 10px;
 }
 
+body.dark {
+	background-color:#141D2F;
+	color: #e9e9e9;
+}
+
+body.dark a {
+	color: #e9e9e9;
+}
+
+body.dark .searchbar {
+	background-color: #1E2A47;
+	box-shadow: none;
+}
+
+body.dark .main-container {
+	background-color: #1E2A47;
+	box-shadow: none;
+}
+
+body.dark input {
+	background-color: #1E2A47;
+	color: #e9e9e9;
+
+}
+
+body.dark .stats {
+	background-color:#141D2F;
+
+}
+
+
+body.dark .light-text {
+	display: inline;
+	text-transform: uppercase;
+	color: #e9e9e9;
+}
+
+body.dark .light-icon {
+	display: inline;
+}
+
+body.dark .dark-text {
+	display: none;
+}
+
+body.dark .dark-icon {
+	display: none;
+}
 
 
 

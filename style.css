@@ -146,6 +146,10 @@ button {
 	margin-right: 10px;
 }
 
+#no-result {
+	color:red;
+}
+
 .main-container {
 	display: flex;
 	flex-direction: column;

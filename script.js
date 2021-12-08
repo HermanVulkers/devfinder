@@ -9,7 +9,9 @@ $(document).ready(function () {
 
 	function searchUsers(username) {
 		$.get("https://api.github.com/users/" + username, function (data) {
-			console.log(data);
+			if (typeof data) {
+				document.getElementById("no-result").innerHTML = "";
+			}
 
 			let photo = data.avatar_url;
 			document.getElementById(
@@ -71,10 +73,8 @@ $(document).ready(function () {
 				company = "Not Available";
 			}
 			document.getElementById("company-text").innerHTML = `${company}`;
-
-			// console.log(username);
-			// document.getElementById("username2").innerHTML = `@${username}`;
 		});
+		document.getElementById("no-result").innerHTML = `No results`;
 	}
 });
 

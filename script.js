@@ -66,7 +66,7 @@ $(document).ready(function () {
 			}
 			document.getElementById(
 				"website-link"
-			).innerHTML = `<a href="https://www.${website}" id="website-text">${website}</a>`;
+			).innerHTML = `<a href="${website}" id="website-text">${website}</a>`;
 
 			let company = data.company;
 			if (company == null) {

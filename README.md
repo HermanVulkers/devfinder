@@ -1,24 +1,22 @@
 # Herman Vulkers - devfinder
 
-I created this dashboard as a practice project to further develop my API integration, JavaScript, HTML and CSS skills. This code is the solution to one of the challenges developed by frontendmentor.io. They provided the raw materials, such as the text and the images. I did all of the codework. 
+I created this app as a practice project to further develop my API integration, JavaScript, HTML and CSS skills. This code is the solution to one of the challenges developed by frontendmentor.io. They provided the raw materials, such as the text and the images. I did all of the codework. 
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [Objectives](#objectives)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-### The challenge
+### Objectives
 
 Users should be able to:
 
@@ -27,7 +25,7 @@ Users should be able to:
 - Search for GitHub users by their username
 - See relevant user information based on their search
 - Switch between light and dark themes
-- **Bonus**: Have the correct color scheme chosen for them based on their computer preferences. _Hint_: Research `prefers-color-scheme` in CSS.
+- Have the correct color scheme chosen for them based on their computer preferences.
 
 ### Screenshot
 
@@ -35,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://hermanvulkers.github.io/devfinder/)
+- Live Site URL: https://hermanvulkers.github.io/devfinder/
 
 ## My process
 
@@ -51,11 +49,11 @@ Through this project I got an understanding of the way that API's can be used to
 
 ### Useful resources
 
-- [Example resource 1](https://docs.github.com/en/rest/reference/users) - GitHub's official documentation on their API helped me understand how to fetch userdata from their server. It was not as complicated as I expected.
+- [Resource 1](https://docs.github.com/en/rest/reference/users) - GitHub's official documentation on their API helped me understand how to fetch userdata from their server. It was not as complicated as I expected.
 
 
 ## Author
 
-- Website - [Add your name here](https://www.hermanvulkers.com)
+- Website - [Herman Vulkers](https://www.hermanvulkers.com)
 - Frontend Mentor - [@hermanvulkers](https://www.frontendmentor.io/profile/yourusername)
 
